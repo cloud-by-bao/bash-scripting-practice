@@ -16,7 +16,7 @@ The goal was to practice **basic file automation** in Bash by simulating a real-
 ---
 
 ## ▶️ How to Run
-```bash
+```bash        ← (1) opens the bash code block
 # Make script executable
 chmod +x day1.sh
 
@@ -25,6 +25,7 @@ chmod +x day1.sh
 
 # Check that files moved to backups/
 ls backups
+```   
 
 📁 Creating directories...
 📝 Creating 5 log files...
