@@ -11,10 +11,11 @@ Each day includes:
 - A short note on **real-world DevOps/Cloud relevance**
 
 ---
-
 ## 📅 Week 1: Bash Fundamentals
 - [Day 1: File & Directory Automation](week1/day1/README.md)  
   *Create directories, generate timestamped log files, and move them to backups (simulating log rotation & archiving).*
+
+- [Day 1: File & Directory Automation](week1/day1/README.md)
 
 - [Day 2: System Info Script](week1/day2/README.md)  
   *Print OS, disk usage, memory usage, and uptime (simulating system health checks).*
