@@ -4,6 +4,39 @@
 This project is part of my **Bash Scripting Practice Series**.  
 The goal was to practice **basic file automation** in Bash by simulating a real-world DevOps task: generating logs and archiving them into a backup directory.
 
+## 🖊️ Creating the Script
+1. Navigate to the Day 1 folder:
+   ```bash
+   cd ~/bash-scripting-practice/week1/day1
+
+   Create the script file:
+
+vim day1.sh
+
+
+Paste the following code inside:
+
+#!/bin/bash
+
+echo "📁 Creating directories..."
+mkdir -p logs backups reports
+
+echo "📝 Creating 5 log files..."
+for i in {1..5}
+do
+    filename="logs/file_$i_$(date +%Y%m%d%H%M%S).txt"
+    echo "This is file $i created on $(date)" > $filename
+    echo "Created $filename"
+done
+
+echo "📦 Moving files to backups..."
+mv logs/*.txt backups/
+
+echo "✅ Task complete! Files moved to backups/"
+
+
+Save and exit (:wq in Vim).
+
 ---
 
 ## 🛠️ What the Script Does
