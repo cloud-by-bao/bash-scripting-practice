@@ -27,6 +27,10 @@ chmod +x day1.sh
 ls backups
 ```   
 
+---
+
+## 📂 Example Output
+```            ← (3) opens a new plain code block
 📁 Creating directories...
 📝 Creating 5 log files...
 Created logs/file_1_20250927153010.txt
@@ -36,6 +40,9 @@ Created logs/file_4_20250927153013.txt
 Created logs/file_5_20250927153014.txt
 📦 Moving files to backups...
 ✅ Task complete! Files moved to backups/
+```            ← (4) closes the Example Output block
+
+---
 
 🌍 Real-World Relevance
 
