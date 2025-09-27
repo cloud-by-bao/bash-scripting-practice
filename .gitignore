@@ -1,0 +1,7 @@
+# editor swap files
+*.swp
+
+# generated outputs (Day 1)
+week1/day1/backups/
+week1/day1/logs/
+week1/day1/reports/
