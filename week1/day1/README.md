@@ -26,6 +26,8 @@ chmod +x day1.sh
 # Check that files moved to backups/
 ls backups
 
+---
+
 ## 📂 Example Output
 📁 Creating directories...
 📝 Creating 5 log files...
@@ -37,10 +39,17 @@ Created logs/file_5_20250927153014.txt
 📦 Moving files to backups...
 ✅ Task complete! Files moved to backups/
 
-🌍 Real-World Relevance
+markdown
+Copy code
 
-Logs: Applications (e.g., Nginx, AWS Lambda, EC2) constantly generate log files.
+---
 
-Backups: Engineers automate moving logs to backup storage (e.g., S3, Glacier).
+## 🌍 Real-World Relevance
+- **Logs**: Applications (e.g., Nginx, AWS Lambda, EC2) constantly generate log files.  
+- **Backups**: Engineers automate moving logs to backup storage (e.g., S3, Glacier).  
+- **Automation**: Instead of cleaning files manually, a script ensures repeatability and reliability.  
 
-Automation: Instead of cleaning files manually, a script ensures repeatability and reliability.
+This is the foundation for:
+- **Log rotation** in production systems  
+- **Archiving logs to S3** with cron jobs or AWS CLI  
+- **CI/CD pipelines** that generate and store build/test reports  
