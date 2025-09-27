@@ -40,7 +40,7 @@ Created logs/file_5_20250927153014.txt
 
 ---
 
-And in the backups/ folder:
+## And in the backups/ folder:
 
 ---
 
@@ -53,7 +53,7 @@ file_5_20250927153014.txt
 
 ---
 
-🌍 Real-World Relevance
+## 🌍 Real-World Relevance
 Logs: Applications (e.g., Nginx, AWS Lambda, EC2) constantly generate log files.
 
 Backups: Engineers automate moving logs to backup storage (e.g., S3, Glacier) for troubleshooting and auditing.
