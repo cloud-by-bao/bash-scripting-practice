@@ -16,7 +16,7 @@ The goal was to practice **basic file automation** in Bash by simulating a real-
 ---
 
 ## ▶️ How to Run
-```bash        ← (1) opens the bash code block
+```bash      
 # Make script executable
 chmod +x day1.sh
 
@@ -30,7 +30,7 @@ ls backups
 ---
 
 ## 📂 Example Output
-```            ← (3) opens a new plain code block
+```           
 📁 Creating directories...
 📝 Creating 5 log files...
 Created logs/file_1_20250927153010.txt
@@ -40,22 +40,15 @@ Created logs/file_4_20250927153013.txt
 Created logs/file_5_20250927153014.txt
 📦 Moving files to backups...
 ✅ Task complete! Files moved to backups/
-```            ← (4) closes the Example Output block
-
+```            
 ---
 
-🌍 Real-World Relevance
-
-Logs: Applications (e.g., Nginx, AWS Lambda, EC2) constantly generate log files.
-
-Backups: Engineers automate moving logs to backup storage (e.g., S3, Glacier).
-
-Automation: Instead of cleaning files manually, a script ensures repeatability and reliability.
+## 🌍 Real-World Relevance
+- **Logs**: Applications (e.g., Nginx, AWS Lambda, EC2) constantly generate log files.  
+- **Backups**: Engineers automate moving logs to backup storage (e.g., S3, Glacier).  
+- **Automation**: Instead of cleaning files manually, a script ensures repeatability and reliability.  
 
 This is the foundation for:
-
-Log rotation in production systems
-
-Archiving logs to S3 with cron jobs or AWS CLI
-
-CI/CD pipelines that generate and store build/test reports
+- **Log rotation** in production systems  
+- **Archiving logs to S3** with cron jobs or AWS CLI  
+- **CI/CD pipelines** that generate and store build/test reports  
