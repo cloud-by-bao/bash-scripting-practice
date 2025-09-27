@@ -15,6 +15,7 @@ The goal was to practice **basic file automation** in Bash by simulating a real-
 
 ---
 
+```markdown
 ## ▶️ How to Run
 ```bash
 # Make script executable
