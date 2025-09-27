@@ -26,7 +26,7 @@ chmod +x day1.sh
 # Check that files moved to backups/
 ls backups
 
-📂 Example Output
+```📂 Example Output
 📁 Creating directories...
 📝 Creating 5 log files...
 Created logs/file_1_20250927153010.txt
