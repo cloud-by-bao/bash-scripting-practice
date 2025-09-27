@@ -37,7 +37,12 @@ Created logs/file_4_20250927153013.txt
 Created logs/file_5_20250927153014.txt
 📦 Moving files to backups...
 ✅ Task complete! Files moved to backups/
+
+---
+
 And in the backups/ folder:
+
+---
 
 Copy code
 file_1_20250927153010.txt
@@ -45,6 +50,9 @@ file_2_20250927153011.txt
 file_3_20250927153012.txt
 file_4_20250927153013.txt
 file_5_20250927153014.txt
+
+---
+
 🌍 Real-World Relevance
 Logs: Applications (e.g., Nginx, AWS Lambda, EC2) constantly generate log files.
 
